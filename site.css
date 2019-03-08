@@ -16,7 +16,7 @@ body{
 .topnav{
     background-color: var(--nav-bg-colour);
     height: 44px;
-    font-size: 17px;
+    
     position: relative;
     z-index: 2;
     padding: 0;
@@ -24,8 +24,26 @@ body{
     color: var(--main-text-colour);
 }
 
+.topnav h1{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+    padding: 0;
+    margin: 0 20px;
+    display: inline;
+}
+
+.topnav a{
+    font-size: 17px !important;
+    padding: 9px 30px !important;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px 5px 0 0;
+}
+
 .topnav a:hover{
-    background-color: black;
+    background-color: orangered;
 }
 
 a.topnav-icons{
@@ -39,6 +57,7 @@ a.topnav-icons{
     text-decoration: none;
     display: inline-block;
     text-align: center;
+    border-radius: 0;
 }
 
 /* Article */
